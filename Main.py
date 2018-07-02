@@ -5,13 +5,6 @@ from discord.ext.commands import Bot
 from discord.voice_client import VoiceClient
 import time
 import asyncio
-import aiofortnite
-import os
-import json
-import requests
-from PIL import Image, ImageDraw, ImageFont
-from pyfiglet import figlet_format
-import subprocess
 import sys, traceback
 import discord.opus
 
@@ -69,4 +62,5 @@ async def on_guild_join(guild):
 
 
 print(discord.__version__)
-bot.run('NDYzMzg4ODgzNjExMjg3NTgy.DhvtUw.jz1nJo5KvhWxmNi9DFhdKpwc018')
+bot.run(os.getenv('TOKEN'))
+
