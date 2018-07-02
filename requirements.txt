@@ -1,1 +1,1 @@
-pip install discord-rewrite
+pip3 install discord-rewrite
